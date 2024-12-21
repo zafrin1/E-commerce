@@ -132,7 +132,7 @@ checkOutList.forEach((item, key) => {
     count += item.quantity;
  let li = document.createElement("li");
  li.innerHTML=`
- <img src="image/${item.image}">  
+ <img src="${item.image}">  
  
  <div>${item.name}</div>
  <div>${item.price}</div>
