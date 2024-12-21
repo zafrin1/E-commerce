@@ -75,7 +75,7 @@ for ( i = 0; i < item.rating; i++){
 
 
       div.innerHTML = `
-      <img src ="Image/${item.image}"/>
+      <img src ="${item.image}"/>
  <div class ="name">${item.name}</div>
  <div> ${star}</div>
  <div class="price"> <small> ${item.price}</small></div>
